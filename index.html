@@ -6,6 +6,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="navbar.css">
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box; 
+   background-color: #ffe6ff;
+}
+.navbar{
+
+    background-color: #007099;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+
+
+}
+.navhead{
+display: inline-block;
+margin-top: 10px;
+color: blanchedalmond;
+padding-left: 1.2rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.navbar h1:hover{
+    opacity: 0.8;
+    color: #8080ff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+nav ul li{
+
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    
+    
+    
+    
+   
+}
+ul{
+    display: flex;
+    padding-right: 30px;
+ 
+   
+
+    
+   
+}
+a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family:monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+a:hover{
+   opacity: 0.8;
+   color: #8080ff;
+   transition: 0.6s;
+   
+    
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.name{
+    color: #006666;
+}
+.name:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.about{
+    font-size: 1.2rem;
+    color: #009999;
+    font-style:oblique
+
+}
+footer{
+    background-color: #007099 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fthe{
+    display: inline-block;
+   
+    color: blanchedalmond;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#msg{
+    resize: none;
+}
+.btn{
+    width: 60px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #00cccc;
+    border-radius: 7px; 
+    
+}
+input{
+ padding: 5px;  
+ border-radius: 7px; 
+}
+textarea{
+    border-radius: 7px; 
+    border: 1px solid black;
+}
+label{
+    color: #fff;
+}
+@media(max-width: 500px){
+
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 120px;
+
+       
+       
+    }
+    ul{
+        margin-left: -40px;
+    }
+
+    
+}
+@media(max-width: 576px){
+    h1{
+        font-size: 1.7rem;
+    }
+
+   ul{
+    padding-right: 10px;
+   }
+}
+    </style>
 
 </head>
 <body>
